@@ -1,0 +1,33 @@
+(stdin)= ce604cdec97b302045dd35b718098135
+
+network={
+	ssid="eduroam"
+	ca_cert="/etc/ssl/certs/AddTrust_External_Root.pem"
+	priority=999
+	proto=RSN
+	key_mgmt=WPA-EAP
+	pairwise=CCMP
+	auth_alg=OPEN
+	eap=PEAP
+	identity="zeng133"
+	password="zzishandsome@"
+	anonymous_identity="@purdue.edu"
+	disabled=0
+	scan_ssid=0
+	phase1="peaplabel=0"
+	phase2="auth=MSCHAPV2"
+}
+
+network={
+	ssid="PAL3.0"
+	priority=90
+	proto=RSN
+	key_mgmt=WPA-EAP
+	pairwise=CCMP
+	auth_alg=OPEN
+	eap=PEAP
+	identity="zeng133"
+	password="zzishandsome@"
+	phase1="peaplabel=0"
+	phase2="auth=MSCHAPV2"
+}
